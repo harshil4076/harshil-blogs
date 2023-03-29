@@ -10,13 +10,17 @@
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "18.2.0",
+    "react-d3-library": "^1.1.8",
     "react-dom": "18.2.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1"
   },
   "devDependencies": {
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.30",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.20",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "typescript": "5.0.2"
   }
 }

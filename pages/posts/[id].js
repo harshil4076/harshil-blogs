@@ -15,7 +15,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllPostIds();
+  const paths = "d3-histogram"
   return {
     paths,
     fallback: false,

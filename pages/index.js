@@ -13,7 +13,6 @@ export async function getStaticProps() {
     },
   };
 }
-
 export default function Home({allPostsData}) {
   return (
     <Layout home>
@@ -33,6 +32,10 @@ export default function Home({allPostsData}) {
             </li>
           ))}
         </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Projects</h2>
+       <Link href="/projects/d3-histogram">Projects</Link>
       </section>
     </Layout>
   );
