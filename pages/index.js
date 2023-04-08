@@ -26,13 +26,6 @@ export default function Home({ allPostsData }) {
           experience under my belt, I have honed my skills in creating
           innovative and cutting-edge solutions for clients.
         </p>
-        <p>
-          I have worked on a wide range of projects, from small-scale web
-          applications to complex enterprise systems. My expertise in front-end
-          development, coupled with my proficiency in back-end technologies,
-          allows me to provide end-to-end solutions that are scalable,
-          efficient, and secure.
-        </p>
       </section>
       {/* Add section to display a horizontal list of tech stack  */}
       {/* Add logo to each item in the list */}
@@ -204,7 +197,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       {/* Add this <section> tag below the existing <section> tag */}
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -217,11 +210,13 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-      </section>
+      </section> */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <Link href="/projects/d3-histogram">D3 Histogram</Link>
         {/* TOD0: Add a link to a project blog that explins carstack client */}
+        <br />
+        <Link href="/projects/carstack">Carstack</Link>
       </section>
     </Layout>
   );
