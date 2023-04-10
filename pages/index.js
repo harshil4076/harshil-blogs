@@ -217,6 +217,8 @@ export default function Home({ allPostsData }) {
         {/* TOD0: Add a link to a project blog that explins carstack client */}
         <br />
         <Link href="/projects/carstack">Carstack</Link>
+        <br />
+        <Link href="/projects/mortgage-calculator">Mortgage Calculator</Link>
       </section>
     </Layout>
   );

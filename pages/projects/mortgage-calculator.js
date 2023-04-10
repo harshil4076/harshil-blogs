@@ -5,14 +5,14 @@ import utilStyles from "../../styles/utils.module.css";
 import {getPostData} from "../../lib/posts";
 
 export async function getStaticProps({ params }) {
-  const postData = await getPostData("carstack");
+  const postData = await getPostData("mortgage-calculator");
   return {
     props: {
       postData,
     },
   };
 }
-export default function CarStack({ postData }) {
+export default function MortgageCalculator({ postData }) {
   return (
     <Layout>
       <Head>
