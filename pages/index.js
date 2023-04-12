@@ -220,7 +220,7 @@ export default function Home({ allPostsData }) {
         <br />
         <Link href="/projects/mortgage-calculator">Mortgage Calculator</Link>
         <br />
-        <Link href="/projects/speech-to-text-component-using-chatgpt">Speec to text component using CHATGPT.</Link>
+        <Link href="/projects/speech-to-text-component-using-chatgpt">Speech to text component using CHATGPT.</Link>
       </section>
     </Layout>
   );
