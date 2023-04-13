@@ -213,7 +213,12 @@ export default function Home({ allPostsData }) {
       </section> */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
-        <Link href="/projects/speech-to-text-component-using-chatgpt">Speech to text component using CHATGPT.</Link>
+        <Link href="/projects/speech-to-text-component-using-chatgpt">
+          Speech to text component using CHATGPT.
+        </Link>
+        <br />
+        <Link href="/set-interval-demo">setInterval demo</Link>
+        <br />
         <Link href="/projects/carstack">Carstack</Link>
         <br />
         <Link href="/projects/mortgage-calculator">Mortgage Calculator</Link>
@@ -221,7 +226,6 @@ export default function Home({ allPostsData }) {
         <Link href="/projects/d3-histogram">D3 Histogram</Link>
         {/* TOD0: Add a link to a project blog that explins carstack client */}
         <br />
-
       </section>
     </Layout>
   );
