@@ -213,14 +213,15 @@ export default function Home({ allPostsData }) {
       </section> */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
-        <Link href="/projects/d3-histogram">D3 Histogram</Link>
-        {/* TOD0: Add a link to a project blog that explins carstack client */}
-        <br />
+        <Link href="/projects/speech-to-text-component-using-chatgpt">Speech to text component using CHATGPT.</Link>
         <Link href="/projects/carstack">Carstack</Link>
         <br />
         <Link href="/projects/mortgage-calculator">Mortgage Calculator</Link>
         <br />
-        <Link href="/projects/speech-to-text-component-using-chatgpt">Speech to text component using CHATGPT.</Link>
+        <Link href="/projects/d3-histogram">D3 Histogram</Link>
+        {/* TOD0: Add a link to a project blog that explins carstack client */}
+        <br />
+
       </section>
     </Layout>
   );
